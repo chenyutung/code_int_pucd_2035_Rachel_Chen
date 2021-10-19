@@ -15,12 +15,15 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  padding: 1.5rem;
+  background-color: #fff;
 }
-img{
 
+img{
   width: 80vw;
   height: auto;
 }
+
 main{
   width: 80vw;
   margin: 0 auto;
@@ -30,6 +33,12 @@ main{
   grid-gap: 2rem;
   }
 
+.left-sidebar {
+grid-column: 1/2;
+}
+.main-content{
+  grid-column: 2/3;
+}
 
 /*
  * Remove text-shadow in selection highlight:
