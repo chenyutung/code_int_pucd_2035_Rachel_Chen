@@ -16,6 +16,10 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -64,6 +68,11 @@ svg,
 video {
   vertical-align: middle;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*
  * Remove default fieldset styles.
