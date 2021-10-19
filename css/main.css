@@ -19,10 +19,7 @@ html {
   background-color: #fff;
 }
 
-img{
-  width: 80vw;
-  height: auto;
-}
+
 
 main{
   width: 80vw;
@@ -31,7 +28,7 @@ main{
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: min-content;
   grid-gap: 2rem;
-  }
+}
 
 .left-sidebar {
 grid-column: 1/2;
