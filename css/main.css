@@ -78,6 +78,8 @@ header {
 
 .intro {
   grid-column: 1 / 10;
+  position: absolute;
+  text-align: center;
 }
 
 .short-bio {
